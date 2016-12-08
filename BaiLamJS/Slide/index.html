@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="utf-8" />
+        <title>Slider</title>
+        <link rel="stylesheet" href="name.css" />
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <script src="js.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body onload="load()">
+        <div id="slide_content">
+            <img class="mySlides" src="images/img_1.jpg" alt="img_1"/>
+            <img class="mySlides" src="images/img_2.jpg" alt="img_2"/>
+            <img class="mySlides" src="images/img_3.jpg" alt="img_3"/>
+            <img class="mySlides" src="images/img_4.jpg" alt="img_4"/>
+            <img class="mySlides" src="images/img_5.jpg" alt="img_5"/>
+        </div>
+        <div id="slide_footer">
+            <div id="footer_pre_next">
+                <button class="pre_next" onclick="pre_nextImage(-1)">< Prev</button>
+                <button class="pre_next" onclick="pre_nextImage(1)"> Next ></button>
+            </div>
+            <div id="footer_index">
+                <button class="index" onclick="currentIndex(1)">1</button>
+                <button class="index" onclick="currentIndex(2)">2</button>
+                <button class="index" onclick="currentIndex(3)">3</button>
+                <button class="index" onclick="currentIndex(4)">4</button>
+                <button class="index" onclick="currentIndex(5)">5</button>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="utf-8">
+        <title>Calendar</title>
+        <link rel="stylesheet" href="calendar.css"/>
+        <script src="calendar.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body onload="load_month_year()">
+        <div id="header">
+            <input type="text" value="" readonly="readonly" id="result_date" onclick="showCalendar()"/>
+        </div>
+        <div id="calendar_content">
+            <div id="content_selectMMYY">
+                <button class="pre_next_MMYY" id="pre_year" onclick="pre_Year()"></button>
+                <button class="pre_next_MMYY" id="pre_month" onclick="pre_Month()"></button>
+                <select id="select_month" onchange="show_Date()">
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>Aprial</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                </select>
+                <select id="select_year" onchange="show_Date()">
+                </select>
+                <button class="pre_next_MMYY" id="next_month" onclick="next_Month()"></button>
+                <button class="pre_next_MMYY" id="next_year" onclick="next_Year()"></button>
+            </div>
+            <div id="content_Days">
+                <div class="days"><p>Sun</p></div>
+                <div class="days"><p>Mon</p></div>
+                <div class="days"><p>Tue</p></div>
+                <div class="days"><p>Web</p></div>
+                <div class="days"><p>Thu</p></div>
+                <div class="days"><p>Fri</p></div>
+                <div class="days"><p>Sat</p></div>
+            </div>
+            <div id="showDays">
+            </div>
+        </div>
+    </body>
+</html>

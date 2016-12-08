@@ -1,0 +1,104 @@
+﻿body {
+    width: 500px;
+    background-color: #595752;
+}
+#result_date {
+    background-image: url("images/icon_calendar.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 30px;
+    width: 250px;
+    border: solid 1px #147be2;
+}
+#calendar_content {
+    height: 270px;
+    margin-top: 3px;
+    padding-top: 0px;
+    display: none;
+}
+#content_selectMMYY {
+    height: 33px;
+    padding-top: 0px;
+}
+.pre_next_MMYY {
+    width: 65px;
+    height: 33px;
+    margin-right: 5px;
+    float: left;
+}
+#pre_year {
+    background-image: url("images/pre_year.gif");
+    background-repeat: no-repeat;
+    padding-top: -200px;
+}
+#pre_month {
+    background-image: url("images/pre_month.gif");
+    background-repeat: no-repeat;
+}
+#next_month {
+    background-image: url("images/next_month.gif");
+    background-repeat: no-repeat;
+}
+#next_year {
+    background-image: url("images/next_year.gif");
+    background-repeat: no-repeat;
+}
+#select_month {
+    width: 136px;
+    height: 33px;
+    float: left;
+    margin-right: 5px;
+}
+#select_year {
+    width: 65px;
+    height: 33px;
+    float: left;
+    margin-right: 5px;   
+}
+.days {
+    width: 65px;
+    height: 33px;
+    margin-right: 5px;
+    float: left;
+    background-color: silver;
+    color: red;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3px;
+}
+.days p {
+    margin-top: 2px;
+}
+#showDays {
+    width: 500px;
+}
+.day_under {
+    float:  left;
+    width: 65px;
+    height: 33px;
+    margin-right: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: solid 1px white;
+}
+.day_content {
+    width: 65px;
+    height: 33px;
+    margin-right: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    float: left;
+    background-color: white;
+    border:  solid 1px white;
+}
+.day_resent {
+    background-color: blue;
+    width: 65px;
+    height: 33px;
+    margin-right: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    float: left;
+    border:  solid 1px white;
+}

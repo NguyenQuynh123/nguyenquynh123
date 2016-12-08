@@ -1,0 +1,39 @@
+
+#content {
+	width: 800px;
+	height: 450px;
+	margin-left: 0px;
+}
+#content ul {
+	list-style-type: none;
+	clear: both;
+}
+#content li {
+    float: left;
+    width: 100px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#birthday {
+    width: 500px;
+}
+.type_button {
+    background-color: blue;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 7px;
+}
+.val_error {
+	float: left;
+	margin-left: 80px;
+	width: 300px;
+	color: red;
+}
+#birthday_error {
+	float: left;
+	margin-left: 180px;
+	margin-top: -20px;
+	width: 300px;
+	color: red;
+}

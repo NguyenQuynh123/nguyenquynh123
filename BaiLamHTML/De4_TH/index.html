@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>Đề 4 thực hành</title>
+        <link rel="stylesheet" href="css.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <meta charset="utf-8"/>
+        <script src="js.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+<body>
+    <div id="header">
+        <div id="header_left">
+            <div id="header_confidential">
+                <div class="confidential_headerfooter">
+                    <div class="confidential_header">
+                        <p class="header_left_tieude">DAILY CELEBRITY GOSSIP</p>
+                    </div>
+                    <div class="confidential_center">
+                        <img src="images/showbuzz.jpg" alt="showbuzz"/>
+                        <img src="images/h3-confidential-showbuzz-bg.gif" alt="bg_showbuzz"/>
+                        <h4>+ RUSSEL CROWE + MORE ...</h4>
+                        <p>RUSSELL Crowe's son to marry Keth & Nicole's daughter,plus Renee Zellweger reveals her breast cancer scare</p>
+                    </div>
+                </div>
+                <div class="confidential_headerfooter">
+                    <div class="confidential_header" id="pics_header">
+                        <p class="header_left_tieude">DAILY CELEBRITY PICS</p>
+                    </div>
+                    <div class="confidential_center" id="pics_center">
+                        <img src="images/star.jpg" alt="pics"/>
+                        <img src="images/h3-confidential-showbuzz-bg.gif" alt="bg_showbuzz"/>
+                        <h4>+ BACKHAMS, CLAUDIA SCHIFFER</h4>
+                        <p>VICTORIA and David Beckham dine out in NY, as top models Claudia Schiffer and Eva Herzigona hit the shops in Milan.</p>
+                    </div>
+                </div>
+                <div id="confidential_footer">
+                    <img src="images/confidential-logo.gif" alt="con_footer"/>
+                </div>
+            </div>
+            <div id="header_topmovie">
+                <div id="topmovie_movietrailers">
+                    <div id="movietrailers_header">
+                        <p class="header_left_tieude">TOP 3 MOVIE TRAILERS</p>
+                    </div>
+                    <div class="topmovie_center" id="movietrailers_TheHouseBunny">
+                        <button class="trailers_button_select" onclick="select_TheHouseBunny()">The House Bunny (M)</button>
+                        <div class="trailers_content">
+                            <img class="trailers_content_img" src="images/0,,6254346,00.jpg" alt="img_TheHouseFunny"/>
+                            <div class="trailers_content_text">
+                                <p>When Playboy bunny Shelly is tossed out of the mansion, she falls in with the sororiry girls from Zeta Alpha Zeta.</p>
+                                <a class="WatchNow_ViewTrailer" href="#">Watch Now</a>
+                            </div>
+                        </div>
+                        <button class="trailers_button_noselect" onclick="select_EagleEye()">Eagle Eye (M)</button>
+                        <button class="trailers_button_noselect" onclick="select_Journey()">Journey To The Center Of The Earth (PG)</button>
+                    </div>
+                    <div class="topmovie_center" id="movietrailers_EagleEye">
+                        <button class="trailers_button_noselect" onclick="select_TheHouseBunny()">The House Bunny (M)</button>
+                        <button class="trailers_button_select" onclick="select_EagleEye()">Eagle Eye (M)</button>
+                        <div class="trailers_content">
+                            <img class="trailers_content_img" src="images/thumb_100x66_216371_216162_2008_eagle_eye_00.jpg" alt="img_EagleEye"/>
+                            <div class="trailers_content_text">
+                                <p>SHIA LaBeouf hits the ground running in Eagle Eys, an against the clock conspiracy thriller with a timely technological t...</p>
+                                <a class="WatchNow_ViewTrailer" href="#">Watch Now</a>
+                            </div>
+                        </div>
+                        <button class="trailers_button_noselect" onclick="select_Journey()">Journey To The Center Of The Earth (PG)</button>
+                    </div>
+                    <div class="topmovie_center" id="movietrailers_JourneyToTheCentre">
+                        <button class="trailers_button_noselect" onclick="select_TheHouseBunny()">The House Bunny (M)</button>
+                        <button class="trailers_button_noselect" onclick="select_EagleEye()">Eagle Eye (M)</button>
+                        <button class="trailers_button_select" onclick="select_Journey()">Journey To The Center Of The Earth (PG)</button>
+                        <div class="trailers_content">
+                            <img class="trailers_content_img" src="images/thumb_100x66_215784_215698_2008_the_house_bunny.jpg" alt="img_Journey"/>
+                            <div class="trailers_content_text">
+                                <p>IF YOU left Legally Blonde and Revenge Of The Nerds DVDs in a darkened room for long enough, something The House Bun...</p>
+                                <a class="WatchNow_ViewTrailer" href="#">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="movietrailers_footer">
+                        <span>Now Showing</span>
+                        <select name="select_movie">
+                            <option>Select Movie</option>
+                            <option>The House Bunny</option>
+                            <option>Eagle Eye</option>
+                            <option>Journey To The Centre Of The Earth (PG)</option>  
+                        </select>
+                    </div>
+                </div>
+                <div id="topmovie_moviereviews">
+                    <div id="moviereviews_header">
+                        <p class="header_left_tieude">MOVIE REVIEWS</p>
+                    </div>
+                    <div class="reviews_movies">
+                        <div class="reviews_tenphim">
+                            <p>Eagle Eye</p>
+                            <div class="reviews_report">
+                                <div class="report" id="report_3sao" onclick="tangLen5Sao_reportEE()"></div>
+                                <div class="report" id="report_5sao" onclick="giamXuong3Sao_reportEE()"></div>
+                            </div>
+                        </div>
+                        <div class="reviews_content">
+                            <img src="images/thumb_100x66_216371_216162_2008_eagle_eye_00.jpg" alt="EagleEye"/>
+                            <p>SHIA LaBeouf hits the ground running in Eagle Eye, an against the clock conspiracy thriller with a timely technological t...</p>
+                            <a class="WatchNow_ViewTrailer" href="#"><span>View Trailer</span></a>
+                        </div>
+                    </div>
+                    <div class="reviews_movies">
+                        <div class="reviews_tenphim">
+                            <p>House Bunny</p>
+                            <div class="reviews_report">
+                                <div class="report" id="report_2sao" onclick="tangLen4Sao_reportHB()"></div>
+                                <div class="report" id="report_4sao" onclick="giamXuong2Sao_reportHB()"></div>
+                            </div>
+                        </div>
+                        <div class="reviews_content">
+                            <img src="images/thumb_100x66_215784_215698_2008_the_house_bunny.jpg" alt="EagleEye"/>
+                            <p>IF YOU left Legally Blonde and Revenge Of The Nerds DVDs a darkened room for long enough, something like The House Bun...</p>
+                            <a class="WatchNow_ViewTrailer" href="#"><span>View Trailer</span></a>
+                        </div>
+                    </div>
+                    <div id="moviereviews_footer">
+                        <a id="reviews_local" href="#">Local Cinema listings</a>
+                        <a id="reviews_movie" href="#">+ MORE MOVIES</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="header_right">
+            <img src="images/Entertainment.gif" alt="Entertainment"/>
+            <div id="entertainment_search">
+                <input type="text">
+                <button>SEARCH</button>
+            </div>
+        </div>
+    </div>
+    <div id="center">
+        <div id="center_icontext">
+            <ul>
+                <li><img src="images/phone.gif" alt="phone">News on your mobile</li>
+                <li><img src="images/wifi.gif" alt="wifi">News on your mobile</li>
+                <li><img src="images/sms.gif" alt="sms">News on your mobile</li>
+                <li><img src="images/stories.gif" alt="stories">News on your mobile</li>
+                <li><img src="images/img.gif" alt="img">News on your mobile</li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer_center">
+            <a href="#">Help</a><span> | </span>
+            <a href="#">Contact Us</a><span> | </span>
+            <a href="#">Advertise with Us</a><span> | </span>
+            <a href="#">Job Opportunities</a><span> | </span>
+            <a href="#">Terms & Conditions</a><span> | </span>
+            <a href="#">Privacy Policy</a><span> | </span>
+            <a href="#">Accessibility</a><span> | </span>
+            <a href="#">Sitemap</a><span> | </span>
+            <a href="#">New Headlines from Our Partners</a><span>
+            <p>Copyright 2008 News Limited. All times AEST (GMT +10)</p>
+        </div>
+        <div id="footer_right">
+            <a href="#">Back to top</a>
+        </div>
+    </div>
+</body>
+</html>

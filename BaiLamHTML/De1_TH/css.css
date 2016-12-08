@@ -1,0 +1,135 @@
+﻿body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    height: auto;
+    background-color: #2D2F35;
+}
+
+#header {
+    height: 70px;
+    border-bottom: 1px solid white;
+}
+#header img {
+    width: auto;
+    height: 70px;
+}
+#content_top {
+    height: 300px;
+    border-bottom: 1px solid white;
+    background-image: url("images/bg_home_intro.gif");
+    background-color: white;
+}
+#content_top_left {
+    width: 25%;
+    height: auto;
+    float: left;
+    margin-left: 200px;
+}
+#content_top_left h2 {
+    color: yellow;
+}
+#content_top_left p {
+    color: white;
+}
+#content_top_right img {
+    width: auto;
+    height: 300px;
+    float: right;
+    margin-right: 200px;     
+}
+#content_center {
+    height: 120px;
+    border-bottom: 1px solid white;
+}
+#content_bottom {
+    height: 340px;
+    border-bottom: 1px solid white
+}
+#content_center_images1 {
+    background-image: url("images/port_thumb_point_progress.jpg");
+    height: 100px;
+    width: 220px;
+    background-repeat: no-repeat;
+    margin-left: 230px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#content_center_images1 img {
+    float: right;
+}
+#content_center_images2 {
+    background-image: url("images/port_thumb_giant_impact.gif");
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 220px;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#content_center_images2 img {
+    float: right;
+}
+#content_center_images3 {
+    background-image: url("images/port_thumb_marsh_johnson.jpg");
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 220px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#content_center_images3 img {
+    float: right;
+}
+#content_center_images4 {
+    background-image: url("images/port_thumb_vivio.jpg");
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 220px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#content_center_images4 img {
+    float: right;
+}
+#content_bottom_left {
+    width: 25%;
+    height: auto;
+    float: left;
+    margin-left: 200px;
+    background-position: right bottom;
+    background-image: url("images/home_services_bg_design.gif");
+    background-repeat: no-repeat;
+}
+#content_bottom_right {
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-right: 200px;
+    background-position: left top;
+    background-image: url("images/home_services_bg_marketing.gif");
+    background-repeat: no-repeat;
+}
+.content_bottom_p {
+    color: white;
+    text-align: justify;   
+}
+.content_bottom_h {
+    color: yellow;
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#content_footer {
+    height: 100px;
+    background-image: url("images/bg_footer.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#content_footer p {
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}	

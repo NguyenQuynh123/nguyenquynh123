@@ -1,0 +1,68 @@
+﻿body {
+    font-family: Timnes New Roman, Times, serif;
+}
+#content_left {
+    width: 440px;
+    height: auto;
+    border: 1px solid black;
+    float: left;
+    margin-right: 10px;
+}
+#content_left img {
+    width: 80px;
+    height: 80px;
+}
+#content_left h1 {
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#left_profile ul {
+    list-style-type: none;
+    overflow: scroll;
+    width: 350px;
+    height: 80px;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+#left_facts ul {
+    list-style-image: url("images/ngoisao.png");
+    margin-left: 15px;
+    text-align: left;
+    margin-top: 10px;    
+}
+.left_facts2 {
+    background-image: url("images/nen_comment.png");
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.left_facts2 a {
+    text-decoration: none
+}
+#left_comment p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+#content_right {
+    float: left;
+    width: auto;
+    height: auto;
+}
+#right_header {
+    border-bottom: 2px solid Orange;
+}
+#right_header h3 {
+    color:red;
+}
+#footer_avatar img {
+    width: 120px;
+    height: 120px;
+}
+#highlight_thongtin {
+    color:red;
+    font-size: 15px;
+}

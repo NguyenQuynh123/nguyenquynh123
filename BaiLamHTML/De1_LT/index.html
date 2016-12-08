@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Lí thuyết bài tập 1</title>
+        <link rel="stylesheet" href="css.css"/>
+    </head>
+    <body>
+        <div id="content_left">
+            <div id="left_profile">
+                 <h1>Player Profile</h1>
+                 <table>
+                     <tr><td><img src="images/profile.jpg" alt="avatar"/></td>
+                     <td>
+                         <ul>
+                             <li>Ten: Nguyen Xuan Nam</li>
+                             <li>Noi sinh: Ha noi</li>
+                             <li>Ngay sinh: 28/11/1990</li>
+                             <li>Cao: 170cm</li>
+                             <li>Nang: 65kg</li>
+                         </ul>
+                     </td></tr>
+                 </table>    
+            </div>
+            <div id="left_facts">
+                <h1>Facts:</h1>
+                <ul>
+                    <li>Nam gia nhap The Cong nam 1999</li>
+                    <li>Trong suot thoi trai tre gia nhap The cong Nam da ghi duoc 160 ban thang trong vong 7 nam</li>
+                    <li>Nam choi tran dau tien cho U21 Viet Nam vao do tuoi 16</li>
+                    <li>Nam da dat cup U21 cho Viet Nam vao nam 2007</li>
+                    <li>Nam da dat cup cau thu xuat sac nhat trong nam</li>
+                </ul>
+                <div class="left_facts2">
+                    <p>Nam choi cho cau lac bo the cong
+                    <br>The cong dat cup vo dich
+                    <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Posted by <a href="#">The Cong's Fan</a> 20/12/2007</p>
+                </div>
+                <div class="left_facts2">
+                    <p>Nam la cau thu choi rat hay o The Cong
+                    <br>Va anh ta da chuyen toi Hoa Phat <>:)
+                    <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Posted by <a href="#">Hoa Phat's Fan</a> 20/12/2007</p>
+                </div>
+            </div>
+            <form id="left_comment">
+                <p>Your Comment</p>
+                <table>
+                    <tr>
+                        <td>Your name</td>
+                        <td><input type = "text"></td>
+                    </tr>
+                    <tr>
+                        <td>Your email (will not public)</td>
+                        <td><input type = "text"></td>
+                    </tr>
+                    <tr>
+                        <td>Comment</td>
+                        <td><textarea rows="10" cols="40" placeholder="Your comment here </textarea>"></textarea></td>
+                    </tr>
+                </table>
+            </form>    
+        </div>
+        <div id="content_right">
+            <div id="right_header">
+                <h3>Phần giải thích (các thí sinh không làm phần này nhưng phải đọc kỹ từ đầu đến cuối trước khi làm bài)</h3>
+                <p>Cả trang sử dụng phông chữ Georgia, 'Times New Roman, Times, serif'</p>
+                <p>Khối lớn bao bên ngoài có chiều rộng 500px.đường viền có độ rộng là 1px và màu #0033FF</p>
+                <p>Chữ Player Profile là chữ in đậm.Khu vực chứa chữ player profile có chiều cao là 25cm, có ảnh nên đi kèm là title_bg.gif</p>
+                <p>Ảnh bên dưới Player Profile là Avatar.gif, kích thước của ảnh là 100px * 90px</p>
+                <p>Thông tin bên cạnh ảnh không phải là textarea</p>
+                <p>Phần thông tin Fact bên dưới là list có ảnh của mỗi phần tử là start.gif</p>
+                <p>Phần nội dung các comment tiếp theo có màu nền là #ECECEC</p>
+                <p>Phần tam giác dưới phía mỗi nội dung comment là ảnh comment_bg.gif</p>
+                <p>Phần Your comment cách phần nội dung comment ở bên trên 20px</p>
+                <p id="right_border"></p>
+            </div>
+            <div id="right_footer">
+                <table>
+                    <tr>
+                        <td>Phần thông tin bên cạnh ảnh avatar</td>
+                        <td id="highlight_thongtin">Ten: Nguyen Xuan Nam<br><br>Noi sinh<br><br>Ngay sinh: 28/11/1990<br><br>Vi tri: Teamleader<br>
+                        <br>Cao: 170cm<br><br>Nang: 65kg<br><br></td>
+                    </tr>
+                    <tr>
+                        <td>Các ảnh sử dụng cho bài thi<br><br>không thay đổi nội dung kích thước ảnh</td>
+                        <td>
+                            <table id="footer_avatar">
+                                <tr><td><img src="images/profile.jpg" alt="avatar"/></td>
+                                <td>Avatar.gif<br><br>Kích thước 120px * 120px<br><br>Viền đen bao quanh ngoài là chỉ phạm vi của ảnh</td></tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Comment_bg.gif Kích thước 25px * 20px</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

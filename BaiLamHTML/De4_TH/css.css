@@ -1,0 +1,325 @@
+﻿body {
+    background-color: #191917;
+    width: 1330px;
+}
+#header {
+    height: 850px;  
+    border-bottom: dotted 2px grey;
+}
+#header_left {
+    width: 862px;
+    height: auto;
+    float: left;
+}
+#header_confidential {
+    width: 862px;   
+    background-color: white;
+    height: auto; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.confidential_headerfooter {
+    width: 430px;
+    float: left;
+    border-right: dotted 1px black;
+    margin-bottom: 20px;
+    border-top: solid 1px white;
+}
+.confidential_header {
+    background-image: url("images/h2-confidential-heading-bg.gif");
+    width: 430px;
+    height: 22px;
+    border-right: solid 1px black;
+    border-bottom: dotted 1px white;
+    margin-top: -20px;
+}
+.header_left_tieude {
+    margin-left: 10px;
+    font-weight: bold;
+    padding-top: 3px;
+    color: white;
+}
+.confidential_center {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    width: 420px;
+}
+.confidential_center p {
+    margin-bottom: 0px;
+}
+.confidential_center img {
+    width: 410px;
+}
+.confidential_center h4 {
+    margin-bottom: -12px;
+}
+#pics_header {
+    border-right: solid 1px white;
+}
+#pics_center {
+    border-right: solid 1px white;
+}
+#confidential_footer {
+    width: 862px;
+}
+#confidential_footer img {
+    width: 100%;
+}
+#topmovie_movietrailers {
+    width: 49%;
+    float: left;
+    background-color: white;
+}
+#movietrailers_header {
+    height: 22px;
+    background-image: url("images/h2-top-movie-trailers-bg.gif");
+    width: 100%;
+    margin-top: -15px;
+    border-bottom: dotted 1px white;
+}
+.topmovie_center {
+    border-bottom: dotted 1px blue;
+}
+.trailers_button_select {
+    width: 100%;
+    text-align: left;
+    color: blue;
+    font-weight: bold;
+    background-image: url("images/top-movie-trailers-arrows.gif");
+    background-position: 400px 5px;
+    background-repeat: no-repeat;
+}
+.trailers_content {
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: auto;
+}
+.trailers_content img {
+    float: left;
+    margin-right: 10px;
+}
+.trailers_content_img {
+    float: left;
+}
+.WatchNow_ViewTrailer {
+    margin-top: 0px;
+    text-decoration: none;
+    margin-left: 5px;
+    width: 50px;
+    background-image: url("images/entertainment-icons.gif");
+    background-position: 0 -90px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+.trailers_content_text p {
+    margin-bottom: 5px;
+}
+.trailers_button_noselect {
+    width: 100%;
+    text-align: left;
+    color: blue;
+    font-weight: bold;
+    background-image: url("images/top-movie-trailers-arrows.gif");
+    background-position: 400px -18px;
+    background-repeat: no-repeat;
+}
+#movietrailers_EagleEye {
+    display: none;
+}
+#movietrailers_JourneyToTheCentre {
+    display: none;
+}
+#movietrailers_footer {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: url("images/now-showing-icon.gif");
+    background-repeat: no-repeat;
+}
+#movietrailers_footer select {
+    width: 280px;
+    margin-left: 5px;
+}
+#movietrailers_footer span {
+    font-weight: bold;
+    clear: both;
+    margin-left: 25px;
+}
+
+#topmovie_moviereviews {
+    width: 49%;
+    float: right;   
+    background-color: white; 
+}
+#moviereviews_header {
+    height: 22px;
+    background-color: #58ACFA;
+    width: 100%;
+    margin-top: -15px;
+    border-bottom: dotted 1px white;
+}
+.reviews_movies {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: dotted 1px blue;
+    height: 130px;
+}
+.reviews_tenphim p {
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    width: 50%;
+    float: left;
+    margin-top: 0px;
+}
+.reviews_report {
+    float: right;
+    height: 10px;
+    width: 40%;
+}
+.report {
+    height: 10px;
+    width: 60px;
+    float: right;
+    background-repeat: no-repeat;
+}
+#report_3sao {
+    background-image: url("images/topic-star-ratings.gif");  
+    background-position: 0 -70px;
+}
+#report_5sao {
+    background-image: url("images/topic-star-ratings.gif");  
+    background-position: 0 -145px;
+    display: none;
+}
+#report_2sao {
+    background-image: url("images/topic-star-ratings.gif");  
+    background-position: 0 -54px;
+}
+#report_4sao {
+    background-image: url("images/topic-star-ratings.gif");  
+    background-position: 0 -115px;
+    display: none;
+}
+.reviews_content {
+    clear: both;
+    float: left;
+    margin-top: -15px;
+} 
+.reviews_content p {
+    float: right;
+    width: 73%;
+    margin-top: 10px;
+}
+.reviews_content img {
+    float: left;
+    height: 70px;
+    width: 25%;
+    margin-bottom: -30px;
+}
+.reviews_content a {
+    clear: both;
+    float: left;
+    width: 30%;
+    margin-left: 0px;
+    margin-top: -5px;
+}
+#moviereviews_footer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#reviews_local {
+    text-decoration: none;
+    margin-left: 5px;
+    width: 100px;
+    background-image: url("images/entertainment-icons.gif");
+    background-position: 0 -171px;
+    background-repeat: no-repeat;
+    padding-left: 20px; 
+    color: blue;
+}
+#reviews_movie {
+    text-decoration: none;
+    margin-left: 5px;
+    width: 100px;
+    float: right;
+    width: 130px;
+    color: black;
+}
+
+#header_right {
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+#header_right img {
+    width: 300px;
+    height: 50px;    
+}
+#entertainment_search {
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+#entertainment_search button {
+    background-color: purple;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+#center_icontext {
+    margin-bottom: 10px;
+    height: 70px;
+}
+#center_icontext li {
+    float: left;
+    width: 200px;
+    height: 70px;
+    margin-left: 45px;
+    text-align: center;
+    color: white;
+}
+#center_icontext img {
+    float: left;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#center_icontext ul {
+    list-style-type: none;
+}
+#footer {
+    height: 60px;
+    background-color: white;
+    color: #0f6bc6;
+}
+#footer_center {
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    width: 80%;
+    margin-left: 120px;
+}
+#footer_center p {
+    margin-top: 0px;
+}
+#footer_center a {
+    text-decoration: none;
+}
+#footer_right {
+    width: 100px;
+    float: right;
+    margin-top: -50px;
+}
+#footer_right a {
+    text-decoration: none;
+}

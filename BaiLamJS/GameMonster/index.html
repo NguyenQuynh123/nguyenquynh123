@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="utf-8">
+        <title>GameMonster</title>
+        <link rel="stylesheet" href="css.css"/>
+        <script src="js.js" language="javascript" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body>
+        <div id="game_header">
+            <div>
+                <div class="header_content">
+                    <span>Score: </span>
+                    <span id="score">0</span>
+                </div>
+                <div class="header_content">
+                    <span>Random Monster: 9</span>
+                </div>
+                <div class="header_content">
+                    <span>Heart: </span>
+                    <span id="heart">5</span>
+                </div>
+                <div id="header_button">
+                    <button id="button_boom" class="button" onclick="boomMonsters()"></button>
+                    <button id="button_stop" class="button" onclick="stopMonsters()"></button>
+                    <button id="button_pause" class="button" onclick="pauseMonsters()"></button>
+                    <button id="button_refresh" class="button" onclick="resumeMonsters()"></button>	
+                </div>
+                <div class="header_content">
+                    <span>Speed: </span>
+                    <span id="speed">1</span>	
+                </div>
+            </div>   	
+        </div>
+        <canvas id="myCanvas">
+            
+        </canvas>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+﻿body {
+    width: 500px;
+    height: 500px;
+    border: solid 1px red;
+}
+#game_header {
+    height: 100px;
+    background-color: #296bad;
+    padding-top: 0px;
+    margin-top:  0px;
+}
+#myCanvas {
+    width: 500px;
+    height: 400px;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.header_content {
+    font-size: 20px;
+    float: left;
+    color: #00ff00;
+    float: left;
+    width: 40%;
+    height: 30px;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header_content p {
+    text-align: left;
+    margin-top:  0px;
+    font-weight: bold;
+}
+#header_button {
+    float: right;
+    width: 50%;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.button {
+    width: 58px;
+    height: 50px;
+    background-color: #296bad;
+    border: solid 1px #296bad;
+    background-repeat: no-repeat;
+}
+#button_boom {
+    background-image: url('images/boom.gif');
+    background-position: center center;
+}
+#button_stop {
+    background-image: url('images/stop.gif');
+    background-position: center center;    
+}
+#button_pause {
+    background-image: url('images/pause.gif');
+    background-position: center center;    
+}
+#button_refresh {
+    background-image: url('images/refresh.gif');
+    background-position: center center;    
+}
